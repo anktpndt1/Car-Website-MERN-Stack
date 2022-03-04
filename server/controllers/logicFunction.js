@@ -39,6 +39,6 @@ export const viewList = async (req, res) => {
     },
     { new: true }
   );
-
+  console.log(updatedList);
   res.json(updatedList);
 };

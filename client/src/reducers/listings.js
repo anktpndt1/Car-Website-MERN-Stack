@@ -6,9 +6,9 @@ export default (state = [], action) => {
     case "CREATE":
       return [...state, action.payload];
     case "VIEWS":
-      return state.map((elem) =>
-        elem._id === action.payload._id ? action.payload : state
-      );
+      return state.map((elem) => {
+        return elem._id === action.payload._id ? action.payload : elem;
+      });
     default:
       return state;
   }

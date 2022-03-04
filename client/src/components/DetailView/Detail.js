@@ -11,6 +11,7 @@ import { Box, CardMedia } from "@mui/material";
 const Detail = () => {
   const { id } = useParams();
   const lists = useSelector((state) => state.listings);
+  console.log(lists);
   const details = lists.find((element) => element._id === id);
 
   return (
