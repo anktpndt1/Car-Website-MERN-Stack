@@ -4,6 +4,7 @@ A car-selling website where one can create a car listing, view all the listings,
 
 # Cloning the Project into your machine
 1. ```git clone https://github.com/anktpndit/Coding-Challenge-Car-Website-MERN-Stack.git```
+2. cd into the Coding-Challenge-Car-Website-MERN-Stack folder
 
 # Running the Project
 
