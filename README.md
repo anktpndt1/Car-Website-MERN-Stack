@@ -3,7 +3,7 @@ A car-selling website where one can create a car listing, view all the listings,
 
 
 # Cloning the Project into your machine
-1. ```https://github.com/anktpndit/Coding-Challenge-Car-Website-MERN-Stack.git```
+1. ```git clone https://github.com/anktpndit/Coding-Challenge-Car-Website-MERN-Stack.git```
 
 # Running the Project
 
