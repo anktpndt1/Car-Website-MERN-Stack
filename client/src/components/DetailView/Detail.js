@@ -1,10 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { Container, Grid, Grow, CircularProgress } from "@material-ui/core";
+import { Container, Grow } from "@material-ui/core";
 import "./styles.css";
 import placeholderImage from "../../assets/img/2.png";
-import { Box, CardMedia } from "@mui/material";
+import { CardMedia } from "@mui/material";
 
 //component for showing the detailed view
 

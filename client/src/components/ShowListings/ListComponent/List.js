@@ -1,16 +1,13 @@
 import { React, useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
-import Collapse from "@mui/material/Collapse";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { blue } from "@mui/material/colors";
-import ShareIcon from "@mui/icons-material/Share";
 import Button from "@mui/material/Button";
 import useStyles from "./styles";
 import { useNavigate } from "react-router-dom";
@@ -31,11 +28,20 @@ const List = ({ list }) => {
     shadow: 1,
   });
 
+  //scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   //we go to another page and display our detailed view there
   const loadDetail = () => {
     console.log(list);
     dispatch(viewList(list._id));
     navigate("detail/" + list._id);
+    scrollToTop();
   };
 
   return (

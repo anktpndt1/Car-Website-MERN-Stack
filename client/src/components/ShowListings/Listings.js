@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import List from "./ListComponent/List";
 import Filter from "../Filter/filter";
 import { useSelector } from "react-redux";
-import { Container, Grid, Grow, CircularProgress } from "@material-ui/core";
+import { Container, Grid, Grow } from "@material-ui/core";
 import "./styles.css";
 
 //component to show the listings of all the cars
