@@ -27,7 +27,9 @@ const Filter = (props) => {
               aria-label="Default select example"
               onChange={handleMakeChanges}
             >
-              <option defaultValue={""}>None</option>
+              <option value="" selected>
+                None
+              </option>
               <option value="BMW">BMW</option>
               <option value="Peugeot">Peugeot</option>
               <option value="Fiat">Fiat</option>
