@@ -1,5 +1,5 @@
 # Coding-Challenge-MERN-stack
-A car-selling website where one can create a car listing, view all the listings, and see the detail view of each listing.
+A car-selling website where one can create a car listing, view all the listings, and see the detailed view of each listing.
 
 
 # Cloning the Project into your machine
