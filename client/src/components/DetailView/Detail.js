@@ -15,7 +15,7 @@ const Detail = () => {
 
   return (
     <Grow in>
-      <Container maxWidth="md" className="flex-box mb-5">
+      <Container maxWidth="md" className="flex-box mt-5">
         {!details ? (
           <h1>Couldn't find the car :(</h1>
         ) : (
