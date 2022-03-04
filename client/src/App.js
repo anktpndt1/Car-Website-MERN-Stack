@@ -18,8 +18,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <NavBar />
         <Container fluid className="app-container">
-          <NavBar />
           {/* using routes to change the content of our webpage */}
           <Routes>
             <Route path="/" element={<Listings />}></Route>

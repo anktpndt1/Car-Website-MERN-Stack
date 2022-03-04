@@ -14,7 +14,7 @@ export const SelectField = ({ ...props }) => {
         {...props}
         autoComplete="off"
       >
-        <option selected>Choose the Make</option>
+        <option defaultValue={""}>Choose the Make</option>
         <option value="BMW">BMW</option>
         <option value="Peugeot">Peugeot</option>
         <option value="Fiat">Fiat</option>

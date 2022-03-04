@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 
@@ -17,19 +17,17 @@ const Filter = (props) => {
 
   return (
     <>
-      <div class="container mt-4">
-        <div class="row">
-          <div class="col">
+      <div className="container mt-4">
+        <div className="row">
+          <div className="col">
             <label>Make</label>
             <select
               value={props.make}
-              class="form-select"
+              className="form-select"
               aria-label="Default select example"
               onChange={handleMakeChanges}
             >
-              <option value="" selected>
-                None
-              </option>
+              <option defaultValue={""}>None</option>
               <option value="BMW">BMW</option>
               <option value="Peugeot">Peugeot</option>
               <option value="Fiat">Fiat</option>
@@ -38,7 +36,7 @@ const Filter = (props) => {
               <option value="Chevrolet">Chevrolet</option>
             </select>
           </div>
-          <div class="col">
+          <div className="col">
             <Box sx={{ width: 1 }}>
               <label>Price</label>
               <Slider

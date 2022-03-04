@@ -53,7 +53,7 @@ const Listings = () => {
                         md={4}
                         className="flex-display"
                       >
-                        <List list={list} />
+                        <List key={list._id} list={list} />
                       </Grid>
                     ) : (
                       <></>

@@ -28,6 +28,7 @@ const Listing = () => {
     Price: Yup.number()
       .required()
       .positive("Must be 0 or greater")
+      .max(100000, "Must be Less than or equal to 1 Million.")
       .test(
         "maxDigitsAfterDecimal",
         "Must have 2 digits after decimal or less",
