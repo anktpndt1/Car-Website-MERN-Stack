@@ -1,0 +1,20 @@
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+}
+
+.content-container {
+  display: flex;
+}
