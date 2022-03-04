@@ -1,19 +1,5 @@
 import mongoose from "mongoose";
 
-// //function to validate url of an image on the server side before storing into the database
-// const validateURL = function (url) {
-//   var image = new Image();
-//   image.onload = function () {
-//     if (this.width > 0) {
-//       return true;
-//     }
-//   };
-//   image.onerror = function () {
-//     return false;
-//   };
-//   image.src = url;
-// };
-
 //creating an schema to define the structure of the car Listing data
 const postSchema = mongoose.Schema({
   Make: {

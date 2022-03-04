@@ -25,6 +25,7 @@ export const createListings = async (req, res) => {
   }
 };
 
+//updates like in the mongodb database
 export const viewList = async (req, res) => {
   const { id } = req.params;
   if (!mongoose.Types.ObjectId.isValid(id))

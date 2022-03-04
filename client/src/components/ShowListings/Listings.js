@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { Container, Grid, Grow, CircularProgress } from "@material-ui/core";
 import "./styles.css";
 
+//component to show the listings of all the cars
 const Listings = () => {
   const lists = useSelector((state) => state.listings);
   //state of our filters

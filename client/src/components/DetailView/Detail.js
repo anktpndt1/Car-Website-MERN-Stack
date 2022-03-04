@@ -6,6 +6,8 @@ import "./styles.css";
 import placeholderImage from "../../assets/img/2.png";
 import { Box, CardMedia } from "@mui/material";
 
+//component for showing the detailed view
+
 const Detail = () => {
   const { id } = useParams();
   const lists = useSelector((state) => state.listings);

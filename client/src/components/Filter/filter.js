@@ -2,6 +2,8 @@ import { React, useState } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 
+//filter component
+
 const Filter = (props) => {
   //functions to change state
   const handleSliderChange = (event, newValue) => {

@@ -1,6 +1,8 @@
 import React from "react";
 import { Nav, NavDropdown, Container, Navbar } from "react-bootstrap";
 
+//navbar component
+
 const NavBar = () => {
   return (
     <div>

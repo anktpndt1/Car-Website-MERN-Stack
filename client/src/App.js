@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Detail from "./components/DetailView/Detail";
 
 function App() {
+  //using redux state management system
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getListings());

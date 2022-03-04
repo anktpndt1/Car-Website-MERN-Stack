@@ -18,6 +18,7 @@ import placeholderImage from "../../../assets/img/2.png";
 import { useDispatch } from "react-redux";
 import { viewList } from "../../../actions/listings";
 
+//component that creates cards to show the listings of cars
 const List = ({ list }) => {
   //dispatch to update view count
   const dispatch = useDispatch();

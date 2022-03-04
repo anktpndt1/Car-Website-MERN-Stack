@@ -4,6 +4,7 @@ import {
   createListings,
   viewList,
 } from "../controllers/logicFunction.js";
+
 //using router to route our incoming requests to a specific route/location
 const router = express.Router();
 
