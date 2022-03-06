@@ -26,6 +26,7 @@ const postSchema = mongoose.Schema({
   Price: {
     type: Number,
     min: 0,
+    max: 1000000,
     required: true,
   },
   Email: {

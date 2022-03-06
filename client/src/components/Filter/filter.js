@@ -44,11 +44,11 @@ const Filter = (props) => {
               <Slider
                 onChange={handleSliderChange}
                 aria-label="Temperature"
-                defaultValue={100000}
+                defaultValue={1000000}
                 valueLabelDisplay="auto"
-                step={1000}
+                step={10000}
                 min={0}
-                max={100000}
+                max={1000000}
               />
             </Box>
           </div>

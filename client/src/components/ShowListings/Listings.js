@@ -9,7 +9,7 @@ import "./styles.css";
 const Listings = () => {
   const lists = useSelector((state) => state.listings);
   //state of our filters
-  const [price, setPrice] = useState(100000);
+  const [price, setPrice] = useState(1000000);
   const [make, setMake] = useState(null);
 
   console.log(lists);
