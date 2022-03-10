@@ -1,5 +1,5 @@
 import React from "react";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form } from "formik";
 import { TextField } from "../CreateListings/TextField";
 import { SelectField } from "../CreateListings/SelectField";
 import * as Yup from "yup";

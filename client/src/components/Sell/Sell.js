@@ -2,7 +2,7 @@ import React from "react";
 import CarIllustration from "../../assets/img/1.jpg";
 import Listing from "../CreateListings/Listing";
 import { Container, Row, Col } from "react-bootstrap";
-import { Grid, Grow, CircularProgress } from "@material-ui/core";
+import { Grow } from "@material-ui/core";
 
 //component to create car listings
 const Sell = () => {
